@@ -1,0 +1,85 @@
+:root {
+	box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 2% 2% 0% 2%;
+	background-color: azure;
+	font-family: sans-serif;
+	font-size: 1.6em;
+	
+}
+
+header{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	margin-top: 5px; 
+	background-color: Hotpink;
+	padding: 0.05em 0.3em 0.1em 0.3em;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+button {
+	font-size: 1.25rem;
+	margin: 0.15em;
+	padding: 0.35em 1.25em 0.35em 1.25em;
+	width: 35%;
+	background-color: LawnGreen;
+}
+
+#progressBar {
+	text-align: center;
+}
+/* The buttons that make up the progess bar */
+#progressBar button {
+	margin: 0px;
+	border: none;
+	width: 8%;
+	text-align: center;
+	background-color: LightGray;
+	font-size: 0em;
+	padding: 5px 4px 5px 4px;
+	
+}
+#progressBar .progressNeutral{	background-color: LightGray;}
+#progressBar .progressCorrect{ background-color: Lime;}
+#progressBar .progressStumble{ background-color: Green;}
+#progressBar .progressError{ background-color: DarkOrange;;}
+
+.btn-group .button{	display: block; }
+.correctAnswer { color : green; }
+.incorrectAnswer { color: red; }
+
+#solutionPanel {
+	background-image: url("images/unicorn-1237449.svg");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#question {
+	font-size: 1.56rem;
+	text-align: left;
+	padding-left: 1.25rem;
+}
+
+#centerNextButton {
+  text-align: center;
+}
+
+#endGamePanel {
+  text-align: center;
+}
+
+#newGame {
+	width: 40%;
+}
